@@ -22,6 +22,7 @@
 # UIコンポーネントの分割基準
 - 分割基準の5要素  
 <img src="./atomicdesign.png">
+
 - Atoms / 原子  
   Atoms層は、UIコンポーネントとしての最小単位。それ以上UIとしての機能性を破壊しない最小要素。最大限抽象化した機能しか持たない。
   - button
@@ -33,9 +34,7 @@
   - 検索フォーム button + text field
   - ログインフォーム button + text field + label etc...
 
-
 <br>
-
 
 # Dashboardに活かすべき視点
 - 再利用可能であるという事。  
